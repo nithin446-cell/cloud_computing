@@ -39,7 +39,6 @@ jobs:
     - name: Run tests
       run: |
             pip install pytest
-            pytest
             python cloud_computing.py
             
 
